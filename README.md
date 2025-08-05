@@ -1,9 +1,9 @@
 # **APIs Course**
-In this repo we will, take a couse that works as an introduction on APIs and review in general a GUI.
+In this repo we will, take a couse that works as an introduction on APIs and review in general a GUI.<br/>
 "Application Programming Interface, is a set of defined rules and protocols that allows different software applications to communicate with each other."
 
 # Index
-This section will contain the topics we will review on the course.<br>
+This section will contain the topics we will review on the course.<br/>
 1. Request API data ↩️<br/>
 2. PyQt5 GUI intro 🖥️<br/>
 3. PyQt5 labels 🏷️<br/>
