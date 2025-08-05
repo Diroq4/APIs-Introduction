@@ -1,5 +1,5 @@
 # **APIs Course**
-In this repo we will, take a couse that works as an introduction on APIs and review in general a GUI.<br/>
+In this repo we will, take a couse that works as an introduction on APIs and review in general a GUI.<br/><br/>
 "Application Programming Interface, is a set of defined rules and protocols that allows different software applications to communicate with each other."
 
 # Index
