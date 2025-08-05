@@ -1,16 +1,21 @@
-#**APIs Course**
+# **APIs Course**
 In this repo we will, take a couse that works as an introduction on APIs and review in general a GUI.
 "Application Programming Interface, is a set of defined rules and protocols that allows different software applications to communicate with each other."
 
-#Index
+# Index
 This section will contain the topics we will review on the course.<br>
-equest API data ↩️
-PyQt5 GUI intro 🖥️
-PyQt5 labels 🏷️
-PyQt5 images 📷
-PyQt5 layout managers 🧲
-PyQt5 buttons 🛎️
-PyQt5 checkboxes ✅
-PyQt5 radio buttons 🔘
-PyQt5 line edits 💬
-PyQt5 CSS styles 🎨
+1. Request API data ↩️<br/>
+2. PyQt5 GUI intro 🖥️<br/>
+3. PyQt5 labels 🏷️<br/>
+4. PyQt5 images 📷<br/>
+5. PyQt5 layout managers 🧲<br/>
+6. PyQt5 buttons 🛎️<br/>
+7. PyQt5 checkboxes ✅<br/>
+8. PyQt5 radio buttons 🔘<br/>
+9. PyQt5 line edits 💬<br/>
+10. PyQt5 CSS styles 🎨<br/>
+
+Projects ⭐ <br/><br/>
+⭐ digital clock program 🕒<br/>
+⭐ stopwatch program ⏱<br/>
+⭐ weather API app ☀️<br/>
