@@ -21,6 +21,7 @@ class MainWindow(QMainWindow): #This is the class we need to create a window and
                             "text-decoration: underline;") 
 #EVERTHING ABOVE THIS: is to edit and modify the color of letters, back ground, type of text, etc...
 
+#ALIGMENT
         # Is this the alingment options and how to do it on a VERTICAL MANNER
         # label.setAlignment(Qt.AlignTop) #This will aling it VERTICALLY TOP
         # label.setAlignment(Qt.AlignBottom) #This will aling it VERTICALLY BOTTOM
