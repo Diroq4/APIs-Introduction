@@ -45,6 +45,7 @@ class MainWindow(QMainWindow): #This is the class we need to create a window and
         self.radio4.toggled.connect(self.radio_button_change)
         self.radio5.toggled.connect(self.radio_button_change)
 
+#This is how to detect wich button was selected
     def radio_button_change(self):
         radio_button = self.sender()
         if radio_button.isChecked():
