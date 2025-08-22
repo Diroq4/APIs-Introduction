@@ -22,9 +22,10 @@ class MainWindow(QMainWindow): #This is the class we need to create a window and
         hbox.addWidget(self.push2)
         hbox.addWidget(self.push3)
 
-#APPLY THE FORMAT TO BE CENTER O HOW WE SPECIFY
-        central_widget.setLayout(hbox) #Without setting a layout, Qt would not know how to place or arrange the widgets inside the container.
-        #is what activates the layout on the central widget, ensuring that the buttons (push1, push2, push3) appear side-by-side inside the window.
+#APPLY THE FORMAT TO BE CENTER O HOW WE SPECIFY, ITS DONE AUTOMATICALLY
+        central_widget.setLayout(hbox) 
+        #Without setting a layout, Qt would not know how to place or arrange the widgets inside the container.
+        #Is what activates the layout on the central widget, ensuring that the buttons (push1, push2, push3) appear side-by-side inside the window.
 
 def main(): #This function basically when we begin the program it will start/execute the application(Windows)
     app = QApplication(sys.argv)
