@@ -27,6 +27,39 @@ class MainWindow(QMainWindow): #This is the class we need to create a window and
         #Without setting a layout, Qt would not know how to place or arrange the widgets inside the container.
         #Is what activates the layout on the central widget, ensuring that the buttons (push1, push2, push3) appear side-by-side inside the window.
 
+        self.push1.setObjectName("button1")
+        self.push2.setObjectName("button2")
+        self.push3.setObjectName("button3")
+
+        self.setStyleSheet("""
+            QPushButton{
+                font-size: 40px;
+                font-family: Arial;
+                padding: 15px 75px;
+                margin: 25px;
+                border: 3px solid;
+                border-radius: 40px;                              
+            }
+            QPushButton#button1{
+                           background-color: #e8bf4f;
+                           }
+            QPushButton#button2{
+                           background-color: #ca77ed;
+                           }
+            QPushButton#button3{
+                           background-color: #f59362;
+                           }
+            QPushButton#button1:hover{ 
+                           background-color: #e3b22d;
+                           }
+            QPushButton#button2:hover{
+                           background-color: #b83feb;
+                           }
+            QPushButton#button3:hover{
+                           background-color: #f2783a;
+                           }                                                                                   
+        """)
+
 def main(): #This function basically when we begin the program it will start/execute the application(Windows)
     app = QApplication(sys.argv)
     window = MainWindow() #This call the class created 
