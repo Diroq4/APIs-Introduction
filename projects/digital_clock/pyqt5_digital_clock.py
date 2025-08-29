@@ -30,7 +30,7 @@ class Digital_clock(QWidget):
         self.setStyleSheet("background-color: black") #We set the background color as black using this line
 
 #SETTING OUR CUSTOPM DONWLOADED FONT
-        font_id = QFontDatabase.addApplicationFont("C:/Users/Diroq/OneDrive/Documentos/APIs/projects/DS-DIGIT.TTF") #Is to let the system know where is the font style file
+        font_id = QFontDatabase.addApplicationFont("C:/Users/Diroq/OneDrive/Documentos/APIs/projects/digital_clock/DS-DIGIT.TTF") #Is to let the system know where is the font style file
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(font_family, 50) #Set the font and font size
         self.time_label.setFont(my_font) #add the font to the time_label so it will show on the widget
