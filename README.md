@@ -18,4 +18,3 @@ This section will contain the topics we will review on the course.<br/>
 Projects ⭐ <br/><br/>
 ⭐ digital clock program 🕒<br/>
 ⭐ stopwatch program ⏱<br/>
-⭐ weather API app ☀️<br/>
